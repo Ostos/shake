@@ -7,11 +7,6 @@ body {
 	height: 100%;
 }
 
-img {
-	display: block;
-	margin: 0 auto;
-}
-
 body > div {
 	width: 80%;
 	height: 100%;
@@ -38,14 +33,19 @@ div > span {
 }
 
 .state-1 .show-name-1, 
-.state-2 .show-picture-1 {
+.state-2 .show-picture-1,
+.state-3 .show-example-1,
+.state-4 .show-shake-1,
+.state-5 .show-end-1 {
 	animation: get-in 1.5s ease-out;
 	opacity: 1;
 	left: 10%;
 }
 
 .state-2 .show-name-2,
-.state-3 .show-picture-2 {
+.state-3 .show-picture-2,
+.state-4 .show-example-2,
+.state-5 .show-shake-2 {
 	animation: get-out 1.5s ease-out;
 	opacity: 0;
 	left: 10%;

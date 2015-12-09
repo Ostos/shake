@@ -6,7 +6,7 @@
 	body = document.getElementsByTagName("body")[0];
 	
 	function changeState() {
-		if(state < 6){
+		if(state < 5){
 			body.classList.remove("state-" + state);
 			state++;
 			body.classList.add('state-' + state);
